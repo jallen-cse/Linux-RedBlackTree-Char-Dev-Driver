@@ -388,4 +388,4 @@ static int release_dev(struct inode* inode, struct file* file)
 module_init(rb438_drv_init);
 module_exit(rb438_drv_exit);
 
-MODULE_LICENSE("GPL");  //avoid annoying error
+MODULE_LICENSE("GPL");  //avoid annoying licensing error

@@ -1,7 +1,7 @@
 # Linux Kernel Loadable Module Red-Black Tree Character Device Driver for ASU Fulton's Embedded Systems CSE438 Class
 Linux Kernel Loadable Module driver (rb438_drv) for accessing red-black tree (rbtree.h) kernel data structure.  Includes user-space program (assignment3) for demonstrating behavior of driver and trees.
 
-Creates 2 character devices: /dev/rb438_dev1 & /dev/rb438_dev2.  Each represent a red-black tree in kernel space.
+Creates 2 character devices: /dev/rb438_dev1 & /dev/rb438_dev2.  Each interface with a red-black tree in kernel space.
 
 Driver supports open(), close(), read(), write(), and ioctl() functionality.
 

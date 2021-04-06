@@ -5,6 +5,8 @@ Creates 2 character devices: /dev/rb438_dev1 & /dev/rb438_dev2.  Each represent 
 
 Driver supports open(), close(), read(), write(), and ioctl() functionality.
 
+Demo executable creates 2 FIFO scheduled threads (priorities 80 and 70) and performs user space actions on the character devices.  See Usage section below.
+
 ## Usage
 
 use 'make' to build module AND demo interfacing executable
@@ -13,7 +15,7 @@ use 'sudo insmod rb438_drv.ko' to insert module into active kernel
 
 demo executable ingests test scripts to interface with character devices.
 
-use './assignment3 <script1> <script2> to test driver. 
+use './assignment3 \<script1\> \<script2\> to test driver. 
 Output of scripts will be placed in output1 & output2 files. 
   
 #### Script example commands:
